@@ -1,0 +1,5 @@
+Github
+Markdown
+Cherry
+
+In a Markdown file, Github will be detected as a misspelling, but `Github` won't. 
