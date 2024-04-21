@@ -1,0 +1,16 @@
+{
+  "name": "status_check_rule(github)",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest",
+    "dev": "node app/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
