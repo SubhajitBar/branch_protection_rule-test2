@@ -1,1 +1,1 @@
-# branch_protection_rule-test2
+# Status Check Rule
