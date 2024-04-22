@@ -1,1 +1,1 @@
-Check baaaadly spelled words
+Check badly spelled words
