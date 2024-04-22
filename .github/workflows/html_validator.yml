@@ -3,7 +3,7 @@ name: HTML5 Validator
 on: [pull_request, push]
 
 jobs:
-  validating:
+  html5-validating:
 
     runs-on: ubuntu-latest
 
