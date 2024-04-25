@@ -10,5 +10,8 @@ const mul = function (a,b){
 const div = function (a,b){
     return a/b
 }
+const mod = function (a,b){
+    return a%b
+}
 
-module.exports = {add, sub, mul, div};
+module.exports = {add, sub, mul, div, mod};
