@@ -15,4 +15,3 @@ const mod = function (a,b){
 }
 
 module.exports = {add, sub, mul, div, mod};
-
