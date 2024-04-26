@@ -1,0 +1,33 @@
+name: Deployment Environment 
+
+on: [push, pull_request, workflow_dispatch]
+
+jobs:
+  DEV:
+    runs-on: ubuntu-latest
+    environment: DEV
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run a script
+        uses: |
+            echo "This is the DEV Environment"
+
+  QA:
+    runs-on: ubuntu-latest
+    environment: QA
+    needs: DEV
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run a script
+        uses: |
+            echo "This is the QA Environment"
+
+  PROD:
+    runs-on: ubuntu-latest
+    environment: PROD
+    needs: QA
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run a script
+        uses: |
+            echo "This is the PROD Environment"
